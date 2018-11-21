@@ -1,11 +1,12 @@
 import console
 import sys
-import clipboard
 import glob
 import os
 from youtube_dl import YoutubeDL
 
-url = sys.argv[1] if len(sys.argv) == 2 else clipboard.get()
+if len(sys.argv) != 2:
+	raise IndexError('usage: %s url' % (sys.argv[0]))
+url = sys.argv[1]
 print('url: %s' % (url))
 
 choices = (
