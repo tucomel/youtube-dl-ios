@@ -1,6 +1,6 @@
 # youtube-dl-ios
 
-> [youtube-dl][youtube-dl] for iOS with [Pythonista][pythonista] and
+> [youtube-dl][youtube-dl] for iOS, with [Pythonista][pythonista] and
 [Shortcuts][shortcuts]
 
 A video (or its audio track) is downloaded by sharing it to a shortcut
@@ -29,9 +29,6 @@ file is opened in a share sheet where it may be copied to any app, such as VLC.
 
 5. Install the shortcut: [iCloud link][shortcut]
 
-    ![Shortcut flow chart][shortcut-chart]
-  
-
 ## Usage
 
 1. Share a video to Shortcuts and then youtube-dl-ios
@@ -43,4 +40,3 @@ file is opened in a share sheet where it may be copied to any app, such as VLC.
 [shortcuts]: https://support.apple.com/en-jo/guide/shortcuts/welcome/ios
 [stash]:https://github.com/ywangd/stash
 [shortcut]: https://www.icloud.com/shortcuts/85f6b11f2827451da6d1f5b82b11816a
-[shortcut-chart]: https://raw.githubusercontent.com/Roman2K/youtube-dl-ios/master/shortcut.jpg
