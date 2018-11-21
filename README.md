@@ -15,14 +15,14 @@ file is opened in a share sheet where it may be copied to any app, such as VLC.
 2. In Pythonista, install [StaSH][stash]
 3. In a StaSH console, install youtube-dl:
 
-    ```
+    ```sh
     $ pip install youtube-dl
     ```
 
 4. and clone this repository (note: `git` is only available if StaSH is run in
    Python 2):
 
-    ```
+    ```sh
     $ cd
     $ git clone https://github.com/Roman2K/youtube-dl-ios
     ```
