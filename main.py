@@ -11,7 +11,7 @@ print('url: %s' % (url))
 
 choices = (
 	('Audio', 'bestaudio[ext=m4a]', 'm4a'),
-	('Video', 'bestvideo[ext=mp4]', 'mp4'),
+	('Video', 'best[ext=mp4]', 'mp4'),
 )
 choice = console.alert('youtube-dl', 'Version to extract:',
 	*(c[0] for c in choices))
