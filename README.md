@@ -3,10 +3,10 @@
 > [youtube-dl][youtube-dl] for iOS, with [Pythonista][pythonista] and
 [Shortcuts][shortcuts]
 
-A video (or its audio track) is downloaded by sharing it to a shortcut
+Download a video (or its audio track) by sharing it to a shortcut
 
 The shortcut calls a helper script run within Pythonista. This script passes the
-URL to youtube-dl to do the actual download. After the downloads completes, the
+URL to youtube-dl to do the actual download. After the download completes, the
 file is opened in a share sheet where it may be copied to any app, such as VLC.
 
 ## Install
